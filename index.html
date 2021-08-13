@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/3450e1d73e.js" crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  <body>
+  
+    <div class="containers">
+        
+        <div class="container1">
+          <h1>Learn to code by watching others</h1>
+
+          <p>See how experienced developers solve problems in real-time.  Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p> 
+        </div>
+    
+        <div class="container2">
+      
+          <p class="container2-invite">Try it free 7 days<span> then $20/mo. thereafter</span></p>
+      
+          <div class="container3"> 
+      
+            <div class="container3-form">
+              <!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post"> -->
+
+            <form id="signup" class="form">
+                <div class="form-field">
+             <i class='fas fa-exclamation-circle icon'></i>
+            <input id="firstName" class="input-field" type="text" name="fname" placeholder="First Name">
+            
+           <small></small>
+            <!-- <p class="hidden-para"><em>First Name cannot be empty</em></p> -->
+          </div>
+          <div class="form-field">
+             <i class='fas fa-exclamation-circle icon'></i>
+            <input id="lastName" class="input-field" type="text" name="lname" placeholder="Last Name">
+            <small></small>
+            <!-- <i class='fas fa-exclamation-circle icon'></i> -->
+             <!-- <p class="hidden-para"><em>Last Name cannot be empty</em></p> -->
+          </div>
+          <div class="form-field">
+             <i class='fas fa-exclamation-circle icon'></i>
+            <input id="email" class="input-field" type="text" name="Email" placeholder="Email Address">
+            <small></small>
+            <!-- <i class='fas fa-exclamation-circle icon'></i> -->
+            <!--  <p class="hidden-para"><em>Looks like this is not an email</em></p> -->
+          </div>
+          <div class="form-field">
+             <i class='fas fa-exclamation-circle icon'></i>
+            <input id="password" class="input-field" type="password" name="password" placeholder="Password">
+           <small></small>
+            <!-- <i class='fas fa-exclamation-circle icon'></i> -->
+             <!-- <p class="hidden-para"><em>Password cannot be empty</em></p> -->
+          </div>
+              
+                <div class="form-field">
+
+               <button id="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+                 </div>
+                 
+                </form>
+                  
+       
+                    <p class="last-para">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+             
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">brian</a>.
+        </p>
+    </footer>
+
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
